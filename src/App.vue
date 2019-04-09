@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <app-navigation></app-navigation>
-        
+
         <v-content transition="slide-x-transition">
             <router-view />
         </v-content>
@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
 import AppNavigation from '@/components/AppNavigation';
 
 export default {
@@ -17,10 +16,7 @@ export default {
     components: {
         AppNavigation
     }
-}
+};
 </script>
 
-
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
